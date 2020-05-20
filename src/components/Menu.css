@@ -1,0 +1,69 @@
+.App-logo {
+  animation: spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #FA8787;
+  padding: 20px;
+  color: #FFEBEB;
+  text-align: center;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@font-face {
+  font-family: 'MenuFont';
+  src:  url('./OpenSans-Regular.woff') format('woff');
+}
+
+.Menu {
+   color: #808080;
+   font-family: 'MenuFont';
+   list-style-type: Circle;
+}
+
+.tabs{
+  font-family:arial;
+  margin:0 auto;
+  width:70%;
+  text-align:center;
+  margin-top:15vh;
+}
+
+img{
+  width:300px;
+}
+
+.tab-buttons{
+  margin-bottom:50px;
+}
+
+button{
+  margin-right:15px;
+  font-size:20px;
+  background:transparent;
+  border:none;
+  outline:none;
+  padding:10px 20px ;
+  cursor:pointer;
+  color:rgba(0,0,0,.4);
+  transition:all ease-in-out .2s;
+  border-bottom:2px solid transparent;
+
+}
+.active{
+  border-bottom:2px solid #42b3f4;
+
+  color:black;
+}
